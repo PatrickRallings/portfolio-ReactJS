@@ -1,7 +1,7 @@
 {
   "name": "part1",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/weatherApp-React",
+  "homepage": "https://gitname.github.io/portfolio-React",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
