@@ -1,12 +1,12 @@
 import {useState} from "react";
 import Welcome from "./Welcome";
-import Page from "./Page";
+import PageTemplate from "./PageTemplate";
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState('Welcome')
     const enter = () => {
-        setCurrentPage('Page')
-        console.log('Set current page to Page')
+        setCurrentPage('PageTemplate')
+        console.log('Set current page to PageTemplate')
     }
     if (currentPage == 'Welcome') {
         return (
@@ -14,7 +14,7 @@ export default function App() {
         )
     } else {
         return (
-            <Page />
+            <PageTemplate />
         )
     }
 }
