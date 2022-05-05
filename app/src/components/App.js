@@ -1,12 +1,12 @@
 import {useState} from "react";
 import Welcome from "./Welcome";
-import Home from "./Home";
+import Page from "./Page";
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState('Welcome')
     const enter = () => {
-        setCurrentPage('Home')
-        console.log('Set current page to Home')
+        setCurrentPage('Page')
+        console.log('Set current page to Page')
     }
     if (currentPage == 'Welcome') {
         return (
@@ -14,7 +14,7 @@ export default function App() {
         )
     } else {
         return (
-            <Home />
+            <Page />
         )
     }
 }
